@@ -1,0 +1,21 @@
+{
+    "name": "klism/booking-star",
+    "autoload": {
+        "psr-4": {
+            "Klism\\BookingStar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "klisman"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.1",
+        "ramsey/collection": "*",
+        "slim/slim": "^4.13",
+        "illuminate/database": "^11.0",
+        "illuminate/events": "^11.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
